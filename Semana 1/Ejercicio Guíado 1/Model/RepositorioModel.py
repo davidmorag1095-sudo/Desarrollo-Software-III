@@ -30,15 +30,7 @@ class Repositorio:
         return self.lista
 
     def modificar(self, indice: int, nuevoObjeto: T) -> bool:
-        """ modifica el elemento en el inidice indicado
-            Parametros:
-                indice (int) : Posicion a modificar
-                nuevoObjeto (T): Nuevo objeto a incluir
-
-            retorno:
-                bool: True si modifica correctamente
-        """
-        if 0<=indice<len(self.lista):
+        if 0 <= indice < len(self.lista):
             self.lista[indice] = nuevoObjeto
             return True
         return False
