@@ -31,4 +31,9 @@ class Flete:
         return self.clienteAsociado
     # ---------------------------------------------------
     def __str__(self):
-        return f"Flete: {self.numeroFlete}|{self.destino}|{self.monto}|{self.clienteAsociado}"
+        return (
+            f"Flete: [{self.numeroFlete}]"
+            f"Destino: {self.destino}]"
+            f"Colones: {self.monto}]"
+            f"Cliente: {self.clienteAsociado}]"
+        )
