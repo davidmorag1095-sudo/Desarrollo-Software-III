@@ -1,6 +1,6 @@
 class View:
     def menu(self):
-        print("/n === SISTEMA DE FLETES ===")
+        print(" === SISTEMA DE FLETES ===")
         print("1. Agregar Cliente")
         print("2. Agregar Flete")
         print("3. Modificar Cliente")
@@ -15,6 +15,7 @@ class View:
         codigo = int(input("Digite el codigo del cliente: "))
         nombre = input("Digite el nombre del cliente: ")
         telefono = int(input("Digite el telefono del cliente: "))
+        print("Agregado con exito!")
         return codigo, nombre, telefono
 
 

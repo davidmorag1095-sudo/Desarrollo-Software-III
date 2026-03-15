@@ -22,7 +22,6 @@ class Repositorio(Generic [T]):
 
     def consultar(self) -> list [T]:
         """Retorna todos los objetos almacenados en la lista
-
         retorna:
             list[T]: Lista de objetos
         """

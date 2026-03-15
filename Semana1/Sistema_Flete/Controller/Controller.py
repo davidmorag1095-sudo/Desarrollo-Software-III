@@ -10,43 +10,42 @@ class Controller:
         self.repoFletes = Repositorio[Flete]()
 #-----------------------------------------------------------------------
     #Agregar un Cliente
-    def agregar_Cliente(self, codigo, nombre, telefono):
+    def agregar_cliente(self, codigo, nombre, telefono):
         cliente = Cliente(codigo, nombre, telefono)
         self.repo_Clientes.consultar()
     #Consultar un Cliente
-    def consultar_Clientes(self):
+    def consultar_clientes(self):
         return self.repo_Clientes.consultar()
 
     #Modificar Cliente
-    def modificar_Cliente(self, indice, codigo, nombre, telefono):
+    def modificar_cliente(self, indice, codigo, nombre, telefono):
         nuevo = Cliente(codigo, nombre, telefono)
-        return self.repo_Clientes.modificar(nuevoObjeto=nuevo)
+        return self.repo_Clientes.modificar(indice, nuevo)
 
     #Agregar Flete
-    def agregar_Flete(self, numero, destino, monto, indice_Cliente):
-        """Crea y guarda un Flete asociado a un cliente"""
+    def agregar_flete(self, numero, destino, monto, indice_Cliente):
+        """"Crea y guarda un flete asociado a un cliente"""""
         clientes = self.repo_Clientes.consultar()
 
         if 0 <= indice_Cliente < len(clientes):
             cliente = clientes[indice_Cliente]
             flete = Flete(numero, destino, monto, cliente)
             self.repoFletes.agregar(flete)
-
 # -----------------------------------------------------------------------
     #Consultar Flete
-    def consultar_Fletes(self):
+    def consultar_fletes(self):
         return self.repoFletes.consultar()
 
     #Modificar Flete
-    def modificar_Flete(self, indice, numero, destino, monto, indice_Cliente):
+    def modificar_flete(self, indice, numero, destino, monto, indice_cliente):
+        """Modificar un flete"""""
+
         clientes = self.repo_Clientes.consultar()
-
-        if 0 < indice_Cliente < len(clientes):
-            nuevo = Flete(numero, destino, monto, clientes[indice_Cliente])
-            fletes = self.repoFletes.consultar()
-
+        if 0 < indice_cliente < len(clientes):
+            nuevo = Flete(numero, destino, monto, clientes[indice_cliente])
+            fletes  = self.repoFletes.consultar()
             if 0 < indice < len(fletes):
-                return self.repoFletes.modificar(indice, nuevo)
+                return self.repoFletes.modificar(indice,nuevo)
             return False
         return False
 #-----------------------------------------------------------------------
