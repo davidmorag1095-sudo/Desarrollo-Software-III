@@ -8,24 +8,23 @@ class View:
         print("5. Consultar Cliente")
         print("6. Consultar Flete")
         print("0. Salir")
-        return input("Seleccione una opcion: ")
+        return int(input("Seleccione una opcion: "))
 
 
     def pedir_Cliente(self):
-        codigo = input("Digite el codigo del cliente: ")
+        codigo = int(input("Digite el codigo del cliente: "))
         nombre = input("Digite el nombre del cliente: ")
-        telefono = input("Digite el telefono del cliente: ")
+        telefono = int(input("Digite el telefono del cliente: "))
         return codigo, nombre, telefono
 
 
     def pedir_Flete(self):
-        numero = input("Digite el numero del flete: ")
+        numero = int(input("Digite el numero del flete: "))
         destino = input("Digite el destino: ")
-        monto = input("Digite el monto del flete: ")
-        indice_Cliente = input("Ingrese el indice del Cliente: ")
+        monto = int(input("Digite el monto del flete: "))
+        indice_Cliente = int(input("Ingrese el indice del Cliente: "))
 
         return numero, destino, monto, indice_Cliente
-
 
     def mostrar_Lista(self, lista):
         if not lista:

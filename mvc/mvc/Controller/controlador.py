@@ -1,6 +1,6 @@
-from SistemaFlete.Model.clienteModel import Cliente
-from SistemaFlete.Model.fleteModel import Flete
-from SistemaFlete.Model.repositorio import Repositorio
+from mvc.Model.clienteModel import Cliente
+from mvc.Model.fleteModel import Flete
+from mvc.Model.repositorio import Repositorio
 
 class Controlador:
     """Clase controlador MVC

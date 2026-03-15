@@ -1,6 +1,7 @@
 from Sistema_Flete.Controller.Controller import Controller
 from Sistema_Flete.View.View import View
 
+
 def main():
     controller = Controller()
     vista = View()
@@ -13,13 +14,17 @@ def main():
 
 
         elif opcion == 2:
-            datos = View.pedir_Flete()
+            datos = vista.pedir_Flete()
             controller.agregar_Flete(*datos)
 
+        elif opcion == 3:
+            "Modificar Cliente"
+            indice= int (input("Indice a modificar: "))
+            datos = vista.pedir_Cliente()
+            controller.modificar_Cliente(indice,*datos)
 
         elif opcion == 4:
             "Modificar Flete"
-
 
         elif opcion == 5:
             "Consultar Cliente"

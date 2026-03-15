@@ -20,14 +20,14 @@ class Controller:
     #Modificar Cliente
     def modificar_Cliente(self, indice, codigo, nombre, telefono):
         nuevo = Cliente(codigo, nombre, telefono)
-        return self.repo_Clientes.modificar(nuevo)
+        return self.repo_Clientes.modificar(nuevoObjeto=nuevo)
 
     #Agregar Flete
     def agregar_Flete(self, numero, destino, monto, indice_Cliente):
         """Crea y guarda un Flete asociado a un cliente"""
         clientes = self.repo_Clientes.consultar()
 
-        if 0 < indice_Cliente < len(clientes):
+        if 0 <= indice_Cliente < len(clientes):
             cliente = clientes[indice_Cliente]
             flete = Flete(numero, destino, monto, cliente)
             self.repoFletes.agregar(flete)
@@ -40,6 +40,7 @@ class Controller:
     #Modificar Flete
     def modificar_Flete(self, indice, numero, destino, monto, indice_Cliente):
         clientes = self.repo_Clientes.consultar()
+
         if 0 < indice_Cliente < len(clientes):
             nuevo = Flete(numero, destino, monto, clientes[indice_Cliente])
             fletes = self.repoFletes.consultar()

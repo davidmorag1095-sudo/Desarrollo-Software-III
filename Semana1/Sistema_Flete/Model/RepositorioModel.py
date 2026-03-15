@@ -5,10 +5,9 @@ from typing import TypeVar, Generic
 # puede ser cliente, flete o cualquiera
 T = TypeVar("T")
 
-
-class Repositorio:
+class Repositorio(Generic [T]):
     """Clase generica que permite almacenar objetos en una lista
-    esta clase se reuriliza para distintos tipos de datos"""
+    esta clase se reutiliza para distintos tipos de datos"""
 
     def __init__(self):
         #Inicializamos una lista
