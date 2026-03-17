@@ -1,34 +1,11 @@
-from typing import TypeVar, Generic
+class Repositorio():
 
+    def agregar(self, clave, valor):
+        """
+        Agregar un objeto al diccionario
 
-#T representa un tipo genérico,
-# puede ser cliente, flete o cualquiera
-T = TypeVar("T")
-
-class Repositorio(Generic [T]):
-    """Clase generica que permite almacenar objetos en una lista
-    esta clase se reutiliza para distintos tipos de datos"""
-
-    def __init__(self):
-        #Inicializamos una lista
-        self.lista = []
-
-    def agregar(self, objeto: T):
-        """" Agrega un objeto en la lista
         Parametros:
-           objeto(T) objeto de tipo genérico
+        clave(cualquiera): clave la cual se usara en el diccionario
+        valor(cualquiera): el valor del asociado a la clave anterior dentro
         """
-        self.lista.append(objeto)
-
-    def consultar(self) -> list [T]:
-        """Retorna todos los objetos almacenados en la lista
-        retorna:
-            list[T]: Lista de objetos
-        """
-        return self.lista
-
-    def modificar(self, indice: int, nuevoObjeto: T) -> bool:
-        if 0 <= indice < len(self.lista):
-            self.lista[indice] = nuevoObjeto
-            return True
-        return False
+        self.diccionario.update({clave:valor})
