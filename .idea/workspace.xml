@@ -35,6 +35,7 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "Python.RepositorioModel.executor": "Run",
     "Python.View.executor": "Run",
     "Python.holamundo.executor": "Run",
     "Python.main.executor": "Run",
@@ -81,7 +82,7 @@
       <workItem from="1773361759504" duration="160000" />
       <workItem from="1773702297605" duration="3750000" />
       <workItem from="1773706203135" duration="28000" />
-      <workItem from="1773706238384" duration="295000" />
+      <workItem from="1773706238384" duration="336000" />
     </task>
     <servers />
   </component>
