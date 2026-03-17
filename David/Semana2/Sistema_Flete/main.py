@@ -1,7 +1,7 @@
 from David.Semana2.Sistema_Flete.View.View import Vista
-from controlador import Controlador
+from Controller.controlador import Controlador
 
-
+print("Hola")
 def main():
     controlador = Controlador()
     vista = Vista()
