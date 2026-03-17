@@ -1,4 +1,4 @@
-from David.Semana2.Sistema_Flete.View.View import Vista
+from View.View import Vista
 from Controller.controlador import Controlador
 
 print("Hola")
