@@ -31,6 +31,34 @@ class Vista:
 
         return numero, destino, monto, clave_cliente
 
+    def mostrar_fletes(self, diccionario):
+        """Muestra los fletes en el diccionario"""
+
+        """La extraccion de los fletes se realiza por medio de valores 
+        en el diccionario"""
+        if not diccionario:
+            print("No hay fletes almacenados")
+
+        else:
+            for valores in diccionario.values():
+                print(valores)
+
+    def mostrar_clientes(self, diccionario):
+        """
+        Imprime los valores del diccionario de clientes
+        """
+        if not diccionario:
+            print("No hay clientes almacenados")
+        else:
+            """Dado que el codigo del cliente se guarda como llave, se extraen los valores. 
+            Esto difiere de la firma de extraer los fletes
+            """
+
+        for clave, valor in diccionario.items():
+            print(clave, "-", valor)
+
+
+
 
 
 
