@@ -51,6 +51,7 @@
     "node.js.selected.package.stylelint": "",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "proofread",
     "to.speed.mode.migration.done": "true",
     "vue.rearranger.settings.migration": "true"
   }
@@ -71,7 +72,7 @@
       <option name="presentableId" value="Default" />
       <updated>1773361758494</updated>
       <workItem from="1773361759504" duration="160000" />
-      <workItem from="1773702297605" duration="3212000" />
+      <workItem from="1773702297605" duration="3285000" />
     </task>
     <servers />
   </component>

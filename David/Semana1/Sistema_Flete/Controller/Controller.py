@@ -13,7 +13,7 @@ class Controller:
     def agregar_cliente(self, codigo, nombre, telefono):
         cliente = Cliente(codigo, nombre, telefono)
         self.repo_Clientes.consultar()
-    #Consultar un Cliente
+#Consultar un Cliente
     def consultar_clientes(self):
         return self.repo_Clientes.consultar()
 
