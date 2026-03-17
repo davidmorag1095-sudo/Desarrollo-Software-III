@@ -12,7 +12,7 @@ class Controlador:
         self.repo_clientes = Repositorio()
         self.repo_fletes = Repositorio()
 
-    def agregar(self, codigo, nombre, telefono):
+    def agregar_clientes(self, codigo, nombre, telefono):
         """Almacena los datos de un cliente, coloca el codigo como clave en el diccionario
         y agrega el resto de datos a una tupla para incluirlos como valor asociado a dicha clave en el diccionario"""
 
@@ -45,6 +45,7 @@ class Controlador:
     def consultar_fletes(self):
         "Retorna el diccionario de fletesp"
         return self.repo_fletes.consultar()
+
 
 
 
