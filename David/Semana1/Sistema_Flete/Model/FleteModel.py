@@ -4,6 +4,7 @@ class Flete:
         self.destino = destino
         self.monto = monto
         self.clienteAsociado = clienteAsociado
+
     #---------------------------------------------------
     #Set/Get
     def setNumeroFlete(self, numeroFlete):
@@ -17,6 +18,7 @@ class Flete:
 
     def setClienteAsociado(self, clienteAsociado):
         self.clienteAsociado = clienteAsociado
+
     # ---------------------------------------------------
     def getNumeroFlete(self):
         return self.numeroFlete
@@ -29,6 +31,12 @@ class Flete:
 
     def getClienteAsociado(self):
         return self.clienteAsociado
+
     # ---------------------------------------------------
     def __str__(self):
-        return f"Flete: {self.numeroFlete}|{self.destino}|{self.monto}|{self.clienteAsociado}"
+        return (
+            f"Flete: [{self.numeroFlete}]"
+            f"Destino: {self.destino}]"
+            f"Colones: {self.monto}]"
+            f"Cliente: {self.clienteAsociado}]"
+        )
