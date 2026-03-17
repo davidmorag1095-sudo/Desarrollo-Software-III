@@ -10,14 +10,12 @@ class View:
         print("0. Salir")
         return int(input("Seleccione una opcion: "))
 
-
     def pedir_Cliente(self):
         codigo = int(input("Digite el codigo del cliente: "))
         nombre = input("Digite el nombre del cliente: ")
         telefono = int(input("Digite el telefono del cliente: "))
         print("Agregado con exito!")
         return codigo, nombre, telefono
-
 
     def pedir_Flete(self):
         numero = int(input("Digite el numero del flete: "))
