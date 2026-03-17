@@ -1,7 +1,7 @@
 #Importaciones para poder hacer instancias de las clases
-from Semana1.Sistema_Flete.Model.RepositorioModel import Repositorio
-from Semana1.Sistema_Flete.Model.ClienteModel import Cliente
-from Semana1.Sistema_Flete.Model.FleteModel import Flete
+from Model.RepositorioModel import Repositorio
+from Model.ClienteModel import Cliente
+from Model.FleteModel import Flete
 class Controller:
     # -----------------------------------------------------------------------
     #Constructor
