@@ -1,5 +1,5 @@
-from Sistema_Flete.Controller.Controller import Controller
-from Sistema_Flete.View.View import View
+from Controller.Controller import Controller
+from View.View import View
 
 
 def main():

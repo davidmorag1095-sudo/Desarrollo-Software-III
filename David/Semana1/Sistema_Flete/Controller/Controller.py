@@ -1,7 +1,7 @@
 #Importaciones para poder hacer instancias de las clases
-from Semana1.Sistema_Flete.Model.RepositorioModel import Repositorio
-from Semana1.Sistema_Flete.Model.ClienteModel import Cliente
-from Semana1.Sistema_Flete.Model.FleteModel import Flete
+from Model.RepositorioModel import Repositorio
+from Model.ClienteModel import Cliente
+from Model.FleteModel import Flete
 class Controller:
     # -----------------------------------------------------------------------
     #Constructor
@@ -13,7 +13,7 @@ class Controller:
     def agregar_cliente(self, codigo, nombre, telefono):
         cliente = Cliente(codigo, nombre, telefono)
         self.repo_Clientes.consultar()
-    #Consultar un Cliente
+#Consultar un Cliente
     def consultar_clientes(self):
         return self.repo_Clientes.consultar()
 
