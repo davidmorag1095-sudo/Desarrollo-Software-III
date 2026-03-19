@@ -5,7 +5,30 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c234d08c-9195-47e5-be74-5f94068513a5" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/Practicas/Practica_Clase2/View/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Practicas/Practica_Guiada/Model/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Practicas/Practica_Guiada/View/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/Desarrollo-Software-III.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Desarrollo-Software-III.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/David/Semana1/Sistema_Flete/Controller/Controller.py" beforeDir="false" afterPath="$PROJECT_DIR$/Practicas/Practica_Genericos/Controller/Controller.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/David/Semana1/Sistema_Flete/Controller/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/Practicas/Practica_Clase2/Controller/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/David/Semana1/Sistema_Flete/Model/ClienteModel.py" beforeDir="false" afterPath="$PROJECT_DIR$/Practicas/Practica_Genericos/Model/ClienteModel.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/David/Semana1/Sistema_Flete/Model/FleteModel.py" beforeDir="false" afterPath="$PROJECT_DIR$/Practicas/Practica_Genericos/Model/FleteModel.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/David/Semana1/Sistema_Flete/Model/RepositorioModel.py" beforeDir="false" afterPath="$PROJECT_DIR$/Practicas/Practica_Genericos/Model/RepositorioModel.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/David/Semana1/Sistema_Flete/Model/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/Practicas/Practica_Clase2/Model/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/David/Semana1/Sistema_Flete/View/View.py" beforeDir="false" afterPath="$PROJECT_DIR$/Practicas/Practica_Genericos/View/View.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/David/Semana1/Sistema_Flete/View/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/Practicas/Practica_Genericos/Controller/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/David/Semana1/Sistema_Flete/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/Practicas/Practica_Genericos/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/David/Semana2/Sistema_Flete/Controller/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/Practicas/Practica_Genericos/Model/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/David/Semana2/Sistema_Flete/Controller/controlador.py" beforeDir="false" afterPath="$PROJECT_DIR$/Practicas/Practica_Guiada/Controller/controlador.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/David/Semana2/Sistema_Flete/Model/ClienteModel.py" beforeDir="false" afterPath="$PROJECT_DIR$/Practicas/Practica_Guiada/Model/ClienteModel.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/David/Semana2/Sistema_Flete/Model/FleteModel.py" beforeDir="false" afterPath="$PROJECT_DIR$/Practicas/Practica_Guiada/Model/FleteModel.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/David/Semana2/Sistema_Flete/Model/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/Practicas/Practica_Genericos/View/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/David/Semana2/Sistema_Flete/Model/repositorio.py" beforeDir="false" afterPath="$PROJECT_DIR$/Practicas/Practica_Guiada/Model/repositorio.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/David/Semana2/Sistema_Flete/View/View.py" beforeDir="false" afterPath="$PROJECT_DIR$/Practicas/Practica_Guiada/View/View.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/David/Semana2/Sistema_Flete/View/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/Practicas/Practica_Guiada/Controller/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/David/Semana2/Sistema_Flete/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/Practicas/Practica_Guiada/main.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,6 +53,9 @@
   &quot;associatedIndex&quot;: 2
 }</component>
   <component name="ProjectId" id="3ArrvFujt3gu2zuF92S0wPBm9yS" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -66,6 +92,7 @@
 }</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Github\Desarrollo-Software-III\Practicas" />
       <recent name="C:\GITHUB\Desarrollo-Software-III\David\Semana1\Sistema_Flete" />
     </key>
   </component>
@@ -91,6 +118,7 @@
       <workItem from="1773706742335" duration="1380000" />
       <workItem from="1773709649441" duration="4592000" />
       <workItem from="1773949930777" duration="5808000" />
+      <workItem from="1773962261326" duration="618000" />
     </task>
     <servers />
   </component>
@@ -98,8 +126,8 @@
     <option name="version" value="3" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/Desarrollo_Software_III$main.coverage" NAME="main Coverage Results" MODIFIED="1773962700184" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Practicas/Practica_Guiada" />
     <SUITE FILE_PATH="coverage/Desarrollo_Software_III$Controller.coverage" NAME="Controller Coverage Results" MODIFIED="1773710355703" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/David/Semana 2/Sistema_Flete/Controller" />
-    <SUITE FILE_PATH="coverage/Desarrollo_Software_III$main.coverage" NAME="main Coverage Results" MODIFIED="1773952411871" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/David/Semana1/Sistema_Flete" />
     <SUITE FILE_PATH="coverage/Desarrollo_Software_III$controlador.coverage" NAME="controlador Coverage Results" MODIFIED="1773714242382" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/David/Semana2/Sistema_Flete/Controller" />
   </component>
 </project>
