@@ -11,18 +11,20 @@ def main():
 
         if opcion == 1:
             datos = vista.pedir_cliente()
-            controlador.agregar_clientes(*datos)
+            controlador.agregar_cliente(*datos)
+
         elif opcion == 2:
             print("\n Clientes disponibles")
+            print("------------------------------------")
             vista.mostrar_clientes(controlador.consultar_clientes())
-
+            print("------------------------------------")
         elif opcion == 3:
-            print("\n Clientes disponibles")
-            vista.mostrar_clientes(controlador.consultar_clientes())
             datos = vista.pedir_flete()
             controlador.agregar_flete(*datos)
 
+
         elif opcion == 4:
+            print("\n Fletes disponibles")
             vista.mostrar_fletes(controlador.consultar_fletes())
 
         elif opcion == 5:
