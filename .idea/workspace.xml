@@ -5,12 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c234d08c-9195-47e5-be74-5f94068513a5" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/Desarrollo-Software-III.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Desarrollo-Software-III.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/David/Semana2/Sistema_Flete/Controller/controlador.py" beforeDir="false" afterPath="$PROJECT_DIR$/David/Semana2/Sistema_Flete/Controller/controlador.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/David/Semana2/Sistema_Flete/View/View.py" beforeDir="false" afterPath="$PROJECT_DIR$/David/Semana2/Sistema_Flete/View/View.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/David/Semana2/Sistema_Flete/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/David/Semana2/Sistema_Flete/main.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -95,7 +90,7 @@
       <workItem from="1773706238384" duration="336000" />
       <workItem from="1773706742335" duration="1380000" />
       <workItem from="1773709649441" duration="4592000" />
-      <workItem from="1773949930777" duration="2115000" />
+      <workItem from="1773949930777" duration="5808000" />
     </task>
     <servers />
   </component>
@@ -104,7 +99,7 @@
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/Desarrollo_Software_III$Controller.coverage" NAME="Controller Coverage Results" MODIFIED="1773710355703" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/David/Semana 2/Sistema_Flete/Controller" />
-    <SUITE FILE_PATH="coverage/Desarrollo_Software_III$main.coverage" NAME="main Coverage Results" MODIFIED="1773951422284" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/David/Semana2/Sistema_Flete" />
+    <SUITE FILE_PATH="coverage/Desarrollo_Software_III$main.coverage" NAME="main Coverage Results" MODIFIED="1773952411871" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/David/Semana1/Sistema_Flete" />
     <SUITE FILE_PATH="coverage/Desarrollo_Software_III$controlador.coverage" NAME="controlador Coverage Results" MODIFIED="1773714242382" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/David/Semana2/Sistema_Flete/Controller" />
   </component>
 </project>
