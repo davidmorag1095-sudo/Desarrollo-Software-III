@@ -1,7 +1,7 @@
 #Importaciones para poder hacer instancias de las clases
-from Model.RepositorioModel import Repositorio
-from Model.ClienteModel import Cliente
-from Model.FleteModel import Flete
+from Practicas.Practica_Genericos.Model.RepositorioModel import Repositorio
+from Practicas.Practica_Genericos.Model.ClienteModel import Cliente
+from Practicas.Practica_Genericos.Model.FleteModel import Flete
 class Controller:
     # -----------------------------------------------------------------------
     #Constructor

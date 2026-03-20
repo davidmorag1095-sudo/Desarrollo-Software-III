@@ -5,30 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c234d08c-9195-47e5-be74-5f94068513a5" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Practicas/Practica_Clase2/View/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Practicas/Practica_Guiada/Model/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Practicas/Practica_Guiada/View/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/Desarrollo-Software-III.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Desarrollo-Software-III.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Practicas/Practica_Clase2/Controller/controlador.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Practicas/Practica_Clase2/Model/estudiante.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Practicas/Practica_Clase2/Model/libro.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Practicas/Practica_Clase2/Model/prestamo.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Practicas/Practica_Clase2/Model/repositorio.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/David/Semana1/Sistema_Flete/Controller/Controller.py" beforeDir="false" afterPath="$PROJECT_DIR$/Practicas/Practica_Genericos/Controller/Controller.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/David/Semana1/Sistema_Flete/Controller/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/Practicas/Practica_Clase2/Controller/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/David/Semana1/Sistema_Flete/Model/ClienteModel.py" beforeDir="false" afterPath="$PROJECT_DIR$/Practicas/Practica_Genericos/Model/ClienteModel.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/David/Semana1/Sistema_Flete/Model/FleteModel.py" beforeDir="false" afterPath="$PROJECT_DIR$/Practicas/Practica_Genericos/Model/FleteModel.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/David/Semana1/Sistema_Flete/Model/RepositorioModel.py" beforeDir="false" afterPath="$PROJECT_DIR$/Practicas/Practica_Genericos/Model/RepositorioModel.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/David/Semana1/Sistema_Flete/Model/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/Practicas/Practica_Clase2/Model/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/David/Semana1/Sistema_Flete/View/View.py" beforeDir="false" afterPath="$PROJECT_DIR$/Practicas/Practica_Genericos/View/View.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/David/Semana1/Sistema_Flete/View/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/Practicas/Practica_Genericos/Controller/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/David/Semana1/Sistema_Flete/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/Practicas/Practica_Genericos/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/David/Semana2/Sistema_Flete/Controller/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/Practicas/Practica_Genericos/Model/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/David/Semana2/Sistema_Flete/Controller/controlador.py" beforeDir="false" afterPath="$PROJECT_DIR$/Practicas/Practica_Guiada/Controller/controlador.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/David/Semana2/Sistema_Flete/Model/ClienteModel.py" beforeDir="false" afterPath="$PROJECT_DIR$/Practicas/Practica_Guiada/Model/ClienteModel.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/David/Semana2/Sistema_Flete/Model/FleteModel.py" beforeDir="false" afterPath="$PROJECT_DIR$/Practicas/Practica_Guiada/Model/FleteModel.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/David/Semana2/Sistema_Flete/Model/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/Practicas/Practica_Genericos/View/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/David/Semana2/Sistema_Flete/Model/repositorio.py" beforeDir="false" afterPath="$PROJECT_DIR$/Practicas/Practica_Guiada/Model/repositorio.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/David/Semana2/Sistema_Flete/View/View.py" beforeDir="false" afterPath="$PROJECT_DIR$/Practicas/Practica_Guiada/View/View.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/David/Semana2/Sistema_Flete/View/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/Practicas/Practica_Guiada/Controller/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/David/Semana2/Sistema_Flete/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/Practicas/Practica_Guiada/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Practicas/Practica_Genericos/Controller/Controller.py" beforeDir="false" afterPath="$PROJECT_DIR$/Practicas/Practica_Genericos/Controller/Controller.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,36 +43,37 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
-    &quot;Python.Controller.executor&quot;: &quot;Run&quot;,
-    &quot;Python.RepositorioModel.executor&quot;: &quot;Run&quot;,
-    &quot;Python.View.executor&quot;: &quot;Run&quot;,
-    &quot;Python.controlador.executor&quot;: &quot;Run&quot;,
-    &quot;Python.holamundo.executor&quot;: &quot;Run&quot;,
-    &quot;Python.main.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.MCP Project settings loaded&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;ai.playground.ignore.import.keys.banner.in.settings&quot;: &quot;true&quot;,
-    &quot;com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;junie.onboarding.icon.badge.shown&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.stylelint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.stylelint&quot;: &quot;&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
-    &quot;to.speed.mode.migration.done&quot;: &quot;true&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "Python.Controller.executor": "Run",
+    "Python.RepositorioModel.executor": "Run",
+    "Python.View.executor": "Run",
+    "Python.controlador.executor": "Run",
+    "Python.holamundo.executor": "Run",
+    "Python.main.executor": "Run",
+    "Python.repositorio.executor": "Run",
+    "RunOnceActivity.MCP Project settings loaded": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "ai.playground.ignore.import.keys.banner.in.settings": "true",
+    "com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1": "true",
+    "git-widget-placeholder": "main",
+    "junie.onboarding.icon.badge.shown": "true",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.stylelint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.stylelint": "",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "to.speed.mode.migration.done": "true",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Github\Desarrollo-Software-III\Practicas" />
@@ -118,7 +102,7 @@
       <workItem from="1773706742335" duration="1380000" />
       <workItem from="1773709649441" duration="4592000" />
       <workItem from="1773949930777" duration="5808000" />
-      <workItem from="1773962261326" duration="618000" />
+      <workItem from="1773962261326" duration="5238000" />
     </task>
     <servers />
   </component>
@@ -127,6 +111,7 @@
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/Desarrollo_Software_III$main.coverage" NAME="main Coverage Results" MODIFIED="1773962700184" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Practicas/Practica_Guiada" />
+    <SUITE FILE_PATH="coverage/Desarrollo_Software_III$repositorio.coverage" NAME="repositorio Coverage Results" MODIFIED="1773966265050" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Practicas/Practica_Clase2/Model" />
     <SUITE FILE_PATH="coverage/Desarrollo_Software_III$Controller.coverage" NAME="Controller Coverage Results" MODIFIED="1773710355703" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/David/Semana 2/Sistema_Flete/Controller" />
     <SUITE FILE_PATH="coverage/Desarrollo_Software_III$controlador.coverage" NAME="controlador Coverage Results" MODIFIED="1773714242382" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/David/Semana2/Sistema_Flete/Controller" />
   </component>
