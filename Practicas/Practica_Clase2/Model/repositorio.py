@@ -1,4 +1,4 @@
-class Repertorio:
+class Repositorio:
     # ----------------------------------------------------------------------------------------
     def __init__(self):
         self.diccionarioEstudiantes = {}
@@ -8,8 +8,8 @@ class Repertorio:
 
     #----------------------------------------------------------------------------------------
     #Agregar
-    def agregar_estudiante(self, carnet, tuplaEstudiante):
-        self.diccionarioEstudiantes.update({carnet, tuplaEstudiante})
+    def agregar_estudiante(self, carnet, tupla_estudiante):
+        self.diccionarioEstudiantes.update({carnet, tupla_estudiante})
 
     def agregar_libro(self, codigoLibro, libro, titulo, autor, categoria):
         self.diccionarioLibros.update({codigoLibro, libro, titulo, autor, categoria})
@@ -18,14 +18,14 @@ class Repertorio:
         self.diccionarioPrestamos.update({numeroPrestamo, estudianteAsociado, libroAsociado, fecha})
 
     #----------------------------------------------------------------------------------------
-    #Consultar
-    def consultar_libro(self):
+    #Mostrar
+    def mostrar_libro(self):
         return self.diccionarioLibros
 
-    def consultar_estudiante(self):
+    def mostrar_estudiante(self):
         return self.diccionarioEstudiantes
 
-    def consultar_prestamo(self):
+    def mostrar_prestamo(self):
         return self.diccionarioPrestamos
 
     #----------------------------------------------------------------------------------------

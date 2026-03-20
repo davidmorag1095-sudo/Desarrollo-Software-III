@@ -5,13 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c234d08c-9195-47e5-be74-5f94068513a5" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Practicas/Practica_Clase2/Controller/controlador.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Practicas/Practica_Clase2/Model/estudiante.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Practicas/Practica_Clase2/Model/libro.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Practicas/Practica_Clase2/Model/prestamo.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Practicas/Practica_Clase2/Model/repositorio.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Practicas/Practica_Clase2/View/vista.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Practicas/Practica_Genericos/Controller/Controller.py" beforeDir="false" afterPath="$PROJECT_DIR$/Practicas/Practica_Genericos/Controller/Controller.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Practicas/Practica_Clase2/Controller/controlador.py" beforeDir="false" afterPath="$PROJECT_DIR$/Practicas/Practica_Clase2/Controller/controlador.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Practicas/Practica_Clase2/Model/repositorio.py" beforeDir="false" afterPath="$PROJECT_DIR$/Practicas/Practica_Clase2/Model/repositorio.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -69,7 +66,7 @@
     "node.js.selected.package.stylelint": "",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable",
     "to.speed.mode.migration.done": "true",
     "vue.rearranger.settings.migration": "true"
   }
@@ -102,7 +99,7 @@
       <workItem from="1773706742335" duration="1380000" />
       <workItem from="1773709649441" duration="4592000" />
       <workItem from="1773949930777" duration="5808000" />
-      <workItem from="1773962261326" duration="5238000" />
+      <workItem from="1773962261326" duration="7295000" />
     </task>
     <servers />
   </component>
