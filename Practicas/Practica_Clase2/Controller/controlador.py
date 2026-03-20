@@ -24,12 +24,31 @@ class Controlador:
     #-----------------------------------------------------------------------
     #Agregar Libro
     def agregar_libro(self,codigoLibro, titulo, autor, categoria):
-        libro = Libro(codigoLibro, titulo, autor, categoria)
-        self.repo_libros.agregar_libro(libro)
+        tupla_libro =(titulo, autor, categoria)
+        self.repo_libros.agregar_libro(codigoLibro,tupla_libro)
 
     #Mostrar Libro
     def mostrar_libros(self):
         return self.repo_libros.mostrar_libro()
 
     def agregar_prestamo(self, numeroPrestamo, estudianteAsociado, libroAsociado, fecha):
-        prestamo = Prestamo(numeroPrestamo, estudianteAsociado, libroAsociado, fecha)
+        tupla_prestamo = (estudianteAsociado, libroAsociado, fecha)
+        self.repo_prestamos.agregar_prestamo(numeroPrestamo, tupla_prestamo)
+    #-----------------------------------------------------------------------------
+    ##Consultar
+    def consultar_estudiantes(self):
+        return self.repo_estudiantes.mostrar_estudiante()
+
+    def consultar_libros(self):
+        return self.repo_libros.mostrar_libro()
+
+    def consultar_prestamos(self):
+        return self.repo_prestamos.mostrar_prestamo()
+
+    def consultar_categorias(self):
+        categorias = set()
+        libros = self.repo_libros.mostrar_libro()
+        for libro in libros.values():
+            categorias.add(libro[2])  # <- aquí está el fix
+
+        return categorias

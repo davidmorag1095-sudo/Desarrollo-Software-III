@@ -9,27 +9,38 @@ class Vista:
         print(" 6. Consultar préstamos")
         print(" 7. Consultar categorías")
         print(" 8. Salir")
-        return int(input("Seleccione una opcion"))
+        return int(input("Seleccione una opcion: "))
 
     def pedir_estudiante(self):
-        carnet = input("Ingrese el carnet del estudiante")
-        nombre = input("Ingrese el nombre del estudiante")
-        carrera = input("Ingrese la carrera a la que pertenece el estudiante")
+        carnet = input("Ingrese el carnet del estudiante: ")
+        nombre = input("Ingrese el nombre del estudiante: ")
+        carrera = input("Ingrese la carrera a la que pertenece el estudiante: ")
+        print("----------------------------------------------------")
+        print("AGREGADO CON EXITO")
+        print("----------------------------------------------------")
         return carnet,nombre,carrera
 
 
     def pedir_libro(self):
-        codigoLibro = input("Ingrese el codigo del libro")
-        titulo = input("Ingrese el titulo del libro")
-        autor = input("Ingrese el autor del libro")
-        categoria = input("Ingrese la categoria del libro")
+        codigoLibro = input("Ingrese el codigo del libro: ")
+        titulo = input("Ingrese el titulo del libro: ")
+        autor = input("Ingrese el autor del libro: ")
+        categoria = input("Ingrese la categoria del libro: ")
+        print("----------------------------------------------------")
+        print("AGREGADO CON EXITO")
+        print("----------------------------------------------------")
         return codigoLibro, titulo, autor, categoria
 
+
+
     def pedir_prestamo(self):
-        numeroPrestamo = input("Ingrese el numero del prestamo")
-        estudianteAsociado = input("Ingrese el estudiante asociado")
-        libroAsociado = input("Ingrese el libro asociado")
-        fecha = input("Ingrese la fecha del prestamo")
+        numeroPrestamo = input("Ingrese el numero del prestamo: ")
+        estudianteAsociado = input("Ingrese el estudiante asociado: ")
+        libroAsociado = input("Ingrese el libro asociado: ")
+        fecha = input("Ingrese la fecha del prestamo: ")
+        print("----------------------------------------------------")
+        print("AGREGADO CON EXITO")
+        print("----------------------------------------------------")
         return numeroPrestamo,estudianteAsociado,libroAsociado,fecha
 
     def mostrar_estudiantes(self,diccionarioEstudiantes):
