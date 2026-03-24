@@ -7,7 +7,8 @@ para mostrar violaciones de los principios SOLID.
 
 Problemas:
 -El flujo general depende de clases mal acopladas.
--Aunque el main es simple, el resto del sistema concentra demasiadas responsabilidades
+-Aunque el main es simple, el resto del sistema concentra
+demasiadas responsabilidades
 """
 
 from ArquitecturavsDiseñoSOLID.PracticaGuiada3.no_Solid.Controller.procesador_pago import ControladorPagos
