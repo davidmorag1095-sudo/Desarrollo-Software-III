@@ -5,6 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c234d08c-9195-47e5-be74-5f94068513a5" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/ArquitecturavsDiseñoSOLID/PracticaGuiada3/no_Solid/Controller/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ArquitecturavsDiseñoSOLID/PracticaGuiada3/no_Solid/Model/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ArquitecturavsDiseñoSOLID/PracticaGuiada3/no_Solid/Model/metodo_pago.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ArquitecturavsDiseñoSOLID/PracticaGuiada3/no_Solid/View/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ArquitecturavsDiseñoSOLID/PracticaGuiada3/no_Solid/main.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -89,7 +94,6 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="SDK_NAME" value="Python 3.12" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Practicas/Practica_Genericos" />
       <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
@@ -131,6 +135,7 @@
       <workItem from="1773962261326" duration="7295000" />
       <workItem from="1774039373027" duration="6666000" />
       <workItem from="1774050236980" duration="598000" />
+      <workItem from="1774307307189" duration="1313000" />
     </task>
     <servers />
   </component>
