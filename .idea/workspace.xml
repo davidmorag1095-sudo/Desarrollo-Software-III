@@ -4,7 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c234d08c-9195-47e5-be74-5f94068513a5" name="Changes" comment="" />
+    <list default="true" id="c234d08c-9195-47e5-be74-5f94068513a5" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/ArquitecturavsDiseñoSOLID/PracticaGuiada3/solid/view/vista.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ArquitecturavsDiseñoSOLID/PracticaGuiada3/solid/controller/procesador_pago.py" beforeDir="false" afterPath="$PROJECT_DIR$/ArquitecturavsDiseñoSOLID/PracticaGuiada3/solid/controller/procesador_pago.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -133,6 +137,8 @@
       <workItem from="1774467701840" duration="7068000" />
       <workItem from="1774534979580" duration="21000" />
       <workItem from="1774557837025" duration="4877000" />
+      <workItem from="1774574854740" duration="260000" />
+      <workItem from="1774575195892" duration="277000" />
     </task>
     <servers />
   </component>

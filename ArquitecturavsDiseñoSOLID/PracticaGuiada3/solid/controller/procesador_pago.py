@@ -32,6 +32,7 @@ Relación con SOLID
 """
 from ArquitecturavsDiseñoSOLID.PracticaGuiada3.solid.model.metodo_pago import MetodoPago, PagoTarjeta, PagoEfectivo, \
     PagoTrasferencia
+from ArquitecturavsDiseñoSOLID.PracticaGuiada3.solid.model.validaciones import validar_monto
 
 
 class ProcesadorPago:
@@ -61,3 +62,27 @@ class ProcesadorPago:
             return PagoTrasferencia()
 
         raise ValueError("Opción invalida. Debe seleccionar una opción del 1 al 4")
+
+    def procesar_pago(self, opcion: str, monto: float) -> str:
+        """
+        Procesa el pago seleccionado por el usuario.
+
+
+            :param opcion: opción del método de pago
+            :param monto:  monto a pagar
+            :return: mensaje resultante del pago
+
+            flujo:
+            1. Validar monto:
+            2. Crear método pago
+            3. Ejecutar mensaje resaltante
+
+            SOLID:
+            SRP: Coordina el proceso, no hace UI ni define
+            algoritmos concretos
+
+            DIP: Usa el contrato MetodoPago
+        """
+        validar_monto(monto)
+        metodo_pago = self.crea_metodo_pago(opcion)
+        return metodo_pago.pagar(monto)
