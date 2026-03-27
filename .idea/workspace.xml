@@ -5,22 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c234d08c-9195-47e5-be74-5f94068513a5" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/practicaMixta/mvc/Model/matricula.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/practicaMixta/mvc/Model/repositorio.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/practicaMixta/mvc/View/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/practicaMixta/mvc/View/vista.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/practicaMixta/mvc/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ArquitecturavsDiseñoSOLID/PracticaGuiada3/solid/controller/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ArquitecturavsDiseñoSOLID/PracticaGuiada3/solid/controller/procesador_pago.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ArquitecturavsDiseñoSOLID/PracticaGuiada3/solid/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ArquitecturavsDiseñoSOLID/PracticaGuiada3/solid/model/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ArquitecturavsDiseñoSOLID/PracticaGuiada3/solid/model/metodo_pago.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ArquitecturavsDiseñoSOLID/PracticaGuiada3/solid/model/validaciones.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ArquitecturavsDiseñoSOLID/PracticaGuiada3/solid/view/__init__.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/Desarrollo-Software-III.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Desarrollo-Software-III.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/practicaGeneric/mvc/Controller/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/practicaMixta/mvc/Controller/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/practicaGeneric/mvc/Model/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/practicaMixta/mvc/Controller/controlador.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/practicaGeneric/mvc/Model/libroModel.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/practicaGeneric/mvc/Model/prestamoModel.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/practicaGeneric/mvc/Model/repositorio.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/practicaGeneric/mvc/Model/usuarioModel.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/practicaGeneric/mvc/View/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/practicaMixta/mvc/Model/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/practicaGeneric/mvc/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/practicaMixta/mvc/Model/estudiante.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
