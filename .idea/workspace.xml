@@ -5,8 +5,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c234d08c-9195-47e5-be74-5f94068513a5" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/HILOS/EjemploHilos/hilo_basico.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HILOS/EjemploHilos/multiples_hilos.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HILOS/EjemploHilos/sincronizacion_lock.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HILOS/Practica/Controller/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HILOS/Practica/Controller/carrera_controller.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HILOS/Practica/Model/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HILOS/Practica/Model/carrera.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HILOS/Practica/Model/corredor.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HILOS/Practica/View/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HILOS/Practica/View/carrera_view.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ArquitecturavsDiseñoSOLID/PracticaGuiada3/solid/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/ArquitecturavsDiseñoSOLID/PracticaGuiada3/solid/main.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,40 +47,44 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
-    &quot;Python.Controller.executor&quot;: &quot;Run&quot;,
-    &quot;Python.RepositorioModel.executor&quot;: &quot;Run&quot;,
-    &quot;Python.View.executor&quot;: &quot;Run&quot;,
-    &quot;Python.controlador.executor&quot;: &quot;Run&quot;,
-    &quot;Python.holamundo.executor&quot;: &quot;Run&quot;,
-    &quot;Python.main.executor&quot;: &quot;Run&quot;,
-    &quot;Python.repositorio.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.MCP Project settings loaded&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;ai.playground.ignore.import.keys.banner.in.settings&quot;: &quot;true&quot;,
-    &quot;com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;junie.onboarding.icon.badge.shown&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Github/Desarrollo-Software-III&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.stylelint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.stylelint&quot;: &quot;&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;proofread&quot;,
-    &quot;to.speed.mode.migration.done&quot;: &quot;true&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "Python.Controller.executor": "Run",
+    "Python.RepositorioModel.executor": "Run",
+    "Python.View.executor": "Run",
+    "Python.controlador.executor": "Run",
+    "Python.hilo_basico.executor": "Run",
+    "Python.holamundo.executor": "Run",
+    "Python.main.executor": "Run",
+    "Python.multiples_hilos.executor": "Run",
+    "Python.repositorio.executor": "Run",
+    "Python.sincronizacion_lock.executor": "Run",
+    "RunOnceActivity.MCP Project settings loaded": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "ai.playground.ignore.import.keys.banner.in.settings": "true",
+    "com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1": "true",
+    "git-widget-placeholder": "main",
+    "junie.onboarding.icon.badge.shown": "true",
+    "last_opened_file_path": "C:/Github/Desarrollo-Software-III/HILOS/Practica/View",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.stylelint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.stylelint": "",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "proofread",
+    "to.speed.mode.migration.done": "true",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Github\Desarrollo-Software-III\HILOS\Practica\View" />
       <recent name="C:\Github\Desarrollo-Software-III\Practicas\sistema_matricula\mvc\view" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
@@ -81,36 +94,9 @@
       <recent name="C:\GITHUB\Desarrollo-Software-III\David\Semana1\Sistema_Flete" />
     </key>
   </component>
-  <component name="RunManager">
-    <configuration name="main" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
-      <module name="Desarrollo-Software-III" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Practicas/Practica_Genericos" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="RUN_TOOL" value="" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Practicas/Practica_Genericos/main.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-js-predefined-d6986cc7102b-9b0f141eb926-JavaScript-PY-253.31033.139" />
         <option value="bundled-python-sdk-2653e85de345-6d6dccd035ac-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-253.31033.139" />
       </set>
     </attachedChunks>
@@ -140,7 +126,8 @@
       <workItem from="1774575195892" duration="321000" />
       <workItem from="1774575557688" duration="23000" />
       <workItem from="1774575719308" duration="462000" />
-      <workItem from="1774576203223" duration="59000" />
+      <workItem from="1774576203223" duration="81000" />
+      <workItem from="1774576378483" duration="94000" />
     </task>
     <servers />
   </component>
