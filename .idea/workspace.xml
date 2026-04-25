@@ -44,9 +44,12 @@
     &quot;Python.Controller.executor&quot;: &quot;Run&quot;,
     &quot;Python.RepositorioModel.executor&quot;: &quot;Run&quot;,
     &quot;Python.View.executor&quot;: &quot;Run&quot;,
+    &quot;Python.consola.executor&quot;: &quot;Run&quot;,
     &quot;Python.controlador.executor&quot;: &quot;Run&quot;,
     &quot;Python.holamundo.executor&quot;: &quot;Run&quot;,
     &quot;Python.main.executor&quot;: &quot;Run&quot;,
+    &quot;Python.matriculaRepository.executor&quot;: &quot;Run&quot;,
+    &quot;Python.principal.executor&quot;: &quot;Run&quot;,
     &quot;Python.repositorio.executor&quot;: &quot;Run&quot;,
     &quot;RunOnceActivity.MCP Project settings loaded&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
@@ -58,7 +61,7 @@
     &quot;com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1&quot;: &quot;true&quot;,
     &quot;git-widget-placeholder&quot;: &quot;main&quot;,
     &quot;junie.onboarding.icon.badge.shown&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Github/Desarrollo-Software-III&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Github/Desarrollo-Software-III/TAREA/conSOLID/View&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.stylelint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
@@ -73,6 +76,9 @@
 }</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Github\Desarrollo-Software-III\TAREA\conSOLID\View" />
+      <recent name="C:\Github\Desarrollo-Software-III\TAREA\conSOLID\Model" />
+      <recent name="C:\Github\Desarrollo-Software-III\TAREA\conSOLID\Controller" />
       <recent name="C:\Github\Desarrollo-Software-III\Practicas\sistema_matricula\mvc\view" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
@@ -81,33 +87,6 @@
       <recent name="C:\Github\Desarrollo-Software-III\Practicas\Practica_Clase2\Controller" />
       <recent name="C:\GITHUB\Desarrollo-Software-III\David\Semana1\Sistema_Flete" />
     </key>
-  </component>
-  <component name="RunManager">
-    <configuration name="main" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
-      <module name="Desarrollo-Software-III" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Practicas/Practica_Genericos" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="DEBUG_JUST_MY_CODE" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="RUN_TOOL" value="" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Practicas/Practica_Genericos/main.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
@@ -143,6 +122,10 @@
       <workItem from="1774575719308" duration="462000" />
       <workItem from="1774576203223" duration="59000" />
       <workItem from="1775519524095" duration="7320000" />
+      <workItem from="1775709159569" duration="4023000" />
+      <workItem from="1775768650614" duration="2548000" />
+      <workItem from="1776468423011" duration="2885000" />
+      <workItem from="1777136840122" duration="1096000" />
     </task>
     <servers />
   </component>
@@ -152,7 +135,10 @@
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/Desarrollo_Software_III$controlador.coverage" NAME="controlador Coverage Results" MODIFIED="1774041115833" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Practicas/Practica_Clase2/Controller" />
     <SUITE FILE_PATH="coverage/Desarrollo_Software_III$Controller.coverage" NAME="Controller Coverage Results" MODIFIED="1773710355703" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/David/Semana 2/Sistema_Flete/Controller" />
+    <SUITE FILE_PATH="coverage/Desarrollo_Software_III$consola.coverage" NAME="consola Coverage Results" MODIFIED="1775770285490" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/TAREA/conSOLID/View" />
+    <SUITE FILE_PATH="coverage/Desarrollo_Software_III$matriculaRepository.coverage" NAME="matriculaRepository Coverage Results" MODIFIED="1776468942956" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Tarea2/mvc/Repositorio" />
+    <SUITE FILE_PATH="coverage/Desarrollo_Software_III$principal.coverage" NAME="principal Coverage Results" MODIFIED="1775770825744" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/TAREA/conSOLID" />
     <SUITE FILE_PATH="coverage/Desarrollo_Software_III$repositorio.coverage" NAME="repositorio Coverage Results" MODIFIED="1773966265050" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Practicas/Practica_Clase2/Model" />
-    <SUITE FILE_PATH="coverage/Desarrollo_Software_III$main.coverage" NAME="main Coverage Results" MODIFIED="1775527394719" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Practicas/Practica_Genericos" />
+    <SUITE FILE_PATH="coverage/Desarrollo_Software_III$main.coverage" NAME="main Coverage Results" MODIFIED="1776471280298" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Tarea2/PrácticaGuiadaCasa/mvc" />
   </component>
 </project>
