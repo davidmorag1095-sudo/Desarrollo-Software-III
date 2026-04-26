@@ -6,6 +6,7 @@
       <sourceFolder url="file://$MODULE_DIR$/Practicas/sistema_matricula/mvc" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/PrácticaGuiadaCasa/PrácticaGuiadaCasa" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Tarea2/PrácticaGuiadaCasa" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/PracticaExamen" isTestSource="false" />
       <excludeFolder url="file://$MODULE_DIR$/.venv" />
       <excludeFolder url="file://$MODULE_DIR$/PrácticaGuiadaCasa/PrácticaGuiadaCasa/.venv" />
       <excludeFolder url="file://$MODULE_DIR$/Tarea2/PrácticaGuiadaCasa/.venv" />
