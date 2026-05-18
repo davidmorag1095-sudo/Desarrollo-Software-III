@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="en" xmlns="http://www.w3.org/1999/html" xmlns="http://www.w3.org/1999/html">
+<head>
+    <meta charset="UTF-8">
+    <title>Formulario</title>
+    <!-- enlace a la hoja de estilos -->
+    <link rel="stylesheet" href="{{ url_for('static',filename='css/estilos.css')}}">
+</head>
+<body>
+
+    <div class="contenedor">
+        <h1>Registro de usuarios</h1>
+        <!-- Inicio del formulario -->
+        <form id="formulario" action="/guardar" method="post">
+
+            <label>Nombre:</label>
+            <input type="text" name="nombre" id="nombre" required>
+
+            <label>Correo:</label>
+            <input type="text" name="correo" id="correo" required>
+            <button type="submit">
+                Enviar
+            </button>
+        </form>
+
+    </div>
+    <!-- conexion con el arhivo JavaScript -->
+    </script src="{{ url_for('static',filename=js/script.js )}}"> </script>
+
+
+</body>
+</html>
