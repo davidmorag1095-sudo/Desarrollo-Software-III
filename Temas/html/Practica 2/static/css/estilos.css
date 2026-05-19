@@ -38,7 +38,7 @@ button{
     background-color:#007BFF;
     color:white;
     border-radius:5px;
-    cursor-pointer
+    cursor:pointer
 }
 /*------------
 Efecto hover
