@@ -4,9 +4,9 @@ class BeneficiarioService:
         Servicio encargado de manejar operaciones sobre beneficiarios.
 
         Args:
-            repositorio: Repositorio genérico encargado de almacenar instancias de Beneficiario.
+            repositorio: Repository genérico encargado de almacenar instancias de Beneficiario.
         """
-        # Repositorio genérico que almacena Beneficiario
+        # Repository genérico que almacena Beneficiario
         self.repositorio = repositorio
         # Set de comunidades para permitir consultas rápidas de comunidades únicas
         self.comunidades: set[str] = set()

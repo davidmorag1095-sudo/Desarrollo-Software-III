@@ -1,4 +1,4 @@
-"""Repositorio genérico para la aplicación de hotel.
+"""Repository genérico para la aplicación de hotel.
 
 El repositorio proporciona una implementación genérica en memoria
 basada en una lista y un diccionario. Permite almacenar objetos de
