@@ -2,7 +2,7 @@ from Temas.BaseDeDatos.Repository.estudiante_repository import EstudianteReposit
 from Temas.BaseDeDatos.Model.estudiante import Estudiante
 
 class EstudianteService:
-    def __init__(self, repository: EstudianteRepository):
+    def __init__(self):
         self.repository = EstudianteRepository()
 
     def registrar_estudiante(self, nombre, correo, carrera):
@@ -59,7 +59,7 @@ class EstudianteService:
 
         return self.repository.buscar_por_id(id_estudiante)
 
-    def actualiar_estudiante(self, id_estudiante, nombre, correo, carrera):
+    def actualizar_estudiante(self, id_estudiante, nombre, correo, carrera):
         """Actualiza un estudiante despúes de validar los datos"""
 
         nombre = nombre.strip()
