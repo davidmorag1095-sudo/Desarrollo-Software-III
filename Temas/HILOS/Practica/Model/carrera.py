@@ -1,4 +1,4 @@
-"""Model principal del juego guarda:
+"""model principal del juego guarda:
 -La distancia
 -La lista de corredores
 -El ganador

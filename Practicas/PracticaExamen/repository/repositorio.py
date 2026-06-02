@@ -1,6 +1,6 @@
 class Repositorio:
     """
-    Repository genérico que almacena y gestiona objetos de cualquier tipo.
+    repository genérico que almacena y gestiona objetos de cualquier tipo.
 
     Este repositorio mantiene internamente una lista de elementos para permitir
     recorridos completos y un diccionario para búsquedas rápidas por clave.

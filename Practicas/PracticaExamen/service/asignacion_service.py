@@ -12,7 +12,7 @@ class AsignacionService:
             ben_service: Servicio para operaciones sobre beneficiarios.
             rec_service: Servicio para operaciones sobre recursos.
         """
-        # Repository propio para almacenar asignaciones
+        # repository propio para almacenar asignaciones
         self.repositorio: Repositorio = Repositorio()
         self.ben_service = ben_service
         self.rec_service = rec_service

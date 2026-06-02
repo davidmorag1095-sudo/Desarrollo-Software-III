@@ -4,9 +4,9 @@ class RecursoService:
         Servicio encargado de manejar operaciones sobre recursos.
 
         Args:
-            repositorio: Repository genérico encargado de almacenar instancias de Recurso.
+            repositorio: repository genérico encargado de almacenar instancias de Recurso.
         """
-        # Repository genérico que almacena Recurso
+        # repository genérico que almacena Recurso
         self.repositorio = repositorio
         # Set de categorías únicas registradas
         self.categorias: set[str] = set()

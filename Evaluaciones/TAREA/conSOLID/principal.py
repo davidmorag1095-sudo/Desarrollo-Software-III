@@ -30,4 +30,4 @@ sistemaPrincipal = Main()
 sistemaPrincipal.iniciarSistema()
 
 """Pude agregar la opcion telegram con mayor facilidad simplemente se crea la clase
- en model en controller se agregar un elif View se agrega la opción y quedo listo"""
+ en model en controller se agregar un elif view se agrega la opción y quedo listo"""
