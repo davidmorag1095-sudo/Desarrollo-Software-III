@@ -1,0 +1,173 @@
+[
+  {
+    "identificador": 1,
+    "nombre": "Show Magia Total",
+    "categoria": "Magia",
+    "fecha": "2026-06-01",
+    "hora_inicio": "18:00",
+    "duracion_minutos": 90,
+    "descripcion": "Ilusionismo en escenario central para toda la familia.",
+    "precios_por_zona": {
+      "General": 2500.0,
+      "Preferencial": 3500.0,
+      "VIP": 5000.0
+    },
+    "capacidad_por_zona": {
+      "VIP": 10,
+      "Preferencial": 15,
+      "General": 15
+    }
+  },
+  {
+    "identificador": 2,
+    "nombre": "Acrobatas del Viento",
+    "categoria": "Acrobacia",
+    "fecha": "2026-06-01",
+    "hora_inicio": "20:15",
+    "duracion_minutos": 80,
+    "descripcion": "Show de trapecio y telas aereas con musica en vivo.",
+    "precios_por_zona": {
+      "General": 2800.0,
+      "Preferencial": 3900.0,
+      "VIP": 5400.0
+    },
+    "capacidad_por_zona": {
+      "VIP": 10,
+      "Preferencial": 15,
+      "General": 15
+    }
+  },
+  {
+    "identificador": 4,
+    "nombre": "Risas Sin Red",
+    "categoria": "Comedia",
+    "fecha": "2026-06-02",
+    "hora_inicio": "20:00",
+    "duracion_minutos": 70,
+    "descripcion": "Rutinas de payasos y humor para toda la familia.",
+    "precios_por_zona": {
+      "General": 2500.0,
+      "Preferencial": 3500.0,
+      "VIP": 5000.0
+    },
+    "capacidad_por_zona": {
+      "VIP": 10,
+      "Preferencial": 15,
+      "General": 15
+    }
+  },
+  {
+    "identificador": 5,
+    "nombre": "Noche de Fuego",
+    "categoria": "Fuego",
+    "fecha": "2026-06-03",
+    "hora_inicio": "19:30",
+    "duracion_minutos": 80,
+    "descripcion": "Malabares de fuego y efectos de luz sincronizados.",
+    "precios_por_zona": {
+      "General": 2500.0,
+      "Preferencial": 3500.0,
+      "VIP": 5000.0
+    },
+    "capacidad_por_zona": {
+      "VIP": 10,
+      "Preferencial": 15,
+      "General": 15
+    }
+  },
+  {
+    "identificador": 6,
+    "nombre": "Ilusion Total",
+    "categoria": "Magia",
+    "fecha": "2026-06-04",
+    "hora_inicio": "18:30",
+    "duracion_minutos": 75,
+    "descripcion": "Grandes actos de magia e ilusionismo en escena.",
+    "precios_por_zona": {
+      "General": 2500.0,
+      "Preferencial": 3500.0,
+      "VIP": 5000.0
+    },
+    "capacidad_por_zona": {
+      "VIP": 10,
+      "Preferencial": 37,
+      "General": 15
+    }
+  },
+  {
+    "identificador": 7,
+    "nombre": "Trucos de cartas",
+    "categoria": "Acrobacia",
+    "fecha": "2026-06-01",
+    "hora_inicio": "6:00",
+    "duracion_minutos": 80,
+    "descripcion": "Trucos con cartas",
+    "precios_por_zona": {
+      "General": 2500.0,
+      "Preferencial": 3500.0,
+      "VIP": 5000.0
+    },
+    "capacidad_por_zona": {
+      "VIP": 10,
+      "Preferencial": 15,
+      "General": 15
+    }
+  },
+  {
+    "identificador": 8,
+    "nombre": "musas",
+    "categoria": "Musical",
+    "fecha": "2007-05-26",
+    "hora_inicio": "17:00",
+    "duracion_minutos": 40,
+    "descripcion": "obra musical",
+    "precios_por_zona": {
+      "General": 2500.0,
+      "Preferencial": 3500.0,
+      "VIP": 5000.0
+    },
+    "capacidad_por_zona": {
+      "VIP": 10,
+      "Preferencial": 15,
+      "General": 15
+    }
+  },
+  {
+    "identificador": 9,
+    "nombre": "Sinfonia Aerea",
+    "categoria": "Musical",
+    "fecha": "2026-06-05",
+    "hora_inicio": "19:00",
+    "duracion_minutos": 85,
+    "descripcion": "Presentacion musical con acrobacias sincronizadas en altura.",
+    "precios_por_zona": {
+      "General": 2700,
+      "Preferencial": 3900,
+      "VIP": 5500
+    },
+    "capacidad_por_zona": {
+      "VIP": 10,
+      "Preferencial": 15,
+      "General": 15
+    }
+  },
+  {
+    "identificador": 10,
+    "nombre": "Rueda Extrema",
+    "categoria": "Acrobacia",
+    "fecha": "2026-06-06",
+    "hora_inicio": "17:30",
+    "duracion_minutos": 95,
+    "descripcion": "Acto de rueda alemana con acrobacia de alta dificultad.",
+    "precios_por_zona": {
+      "General": 2900,
+      "Preferencial": 4200,
+      "VIP": 5600
+    },
+    "capacidad_por_zona": {
+      "VIP": 10,
+      "Preferencial": 15,
+      "General": 15
+    }
+  }
+]
