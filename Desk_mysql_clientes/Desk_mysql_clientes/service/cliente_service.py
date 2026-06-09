@@ -6,8 +6,8 @@ Contener reglas de negocio y validaciones.
 Este service lo usa tanto la consola como Flask.
 """
 
-from model.cliente import Cliente
-from repository.cliente_repository import ClienteRepository
+from Desk_mysql_clientes.Desk_mysql_clientes.model.cliente import Cliente
+from Desk_mysql_clientes.Desk_mysql_clientes.repository.cliente_repository import ClienteRepository
 
 
 class ClienteService:

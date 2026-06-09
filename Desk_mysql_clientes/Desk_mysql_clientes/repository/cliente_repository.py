@@ -6,8 +6,8 @@ Comunicarse directamente con la base de datos.
 Aquí se escriben las consultas SQL.
 """
 
-from database.conexion import obtener_conexion
-from model.cliente import Cliente
+from Desk_mysql_clientes.Desk_mysql_clientes.database.conexion import obtener_conexion
+from Desk_mysql_clientes.Desk_mysql_clientes.model.cliente import Cliente
 
 
 class ClienteRepository:
