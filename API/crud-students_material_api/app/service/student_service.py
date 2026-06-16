@@ -1,4 +1,4 @@
-from ORM.app.repository.student_repository import StudentRepository
+from app.repository.student_repository import StudentRepository
 
 class StudentService:
 

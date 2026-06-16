@@ -3,7 +3,7 @@ Punto de entrada para ejecutar
 la versión web del sistema
 
 Flujo de trabajo:
-HTML -> Flask -> Service -> Repository -> MYSQL
+HTML -> Flask -> Service -> repository -> MYSQL
 
 """
 import flask

@@ -1,5 +1,5 @@
 from ORM.app.controller.student_controller import StudentController
-from app.config.database import init_db
+from ORM.app.config.database import init_db
 
 def menu():
     print("\n=== STUDENT MANAGEMENT SYSTEM ===")

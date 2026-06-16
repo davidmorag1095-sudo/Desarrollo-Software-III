@@ -1,4 +1,4 @@
-from app.service.student_service import StudentService
+from ORM.app.service.student_service import StudentService
 
 class StudentController:
 
