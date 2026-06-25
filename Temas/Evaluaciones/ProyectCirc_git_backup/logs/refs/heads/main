@@ -1,0 +1,8 @@
+0000000000000000000000000000000000000000 2255a38c4da947805d81e1de40dcac6d0436ee3e Davox1095 <davidmorag1095@gmail.com> 1780353463 -0600	clone: from https://github.com/davidmorag1095-sudo/ProyectCirc.git
+2255a38c4da947805d81e1de40dcac6d0436ee3e a9de88bb333b8b30a0f8240fbd0d1516e21c7c75 Davox1095 <davidmorag1095@gmail.com> 1780353781 -0600	commit: Ultimos retoques, se hicieron separacion de metodos por medio de comentarios para un mejor entendimiento
+a9de88bb333b8b30a0f8240fbd0d1516e21c7c75 aecaa879559b57144cca2ab18a54b7cdbb5690e6 Davox1095 <davidmorag1095@gmail.com> 1780353869 -0600	commit: Edición en una palabra de la guía para explicarlo con mayor facilidad y a su vez entenderlo mas facil
+aecaa879559b57144cca2ab18a54b7cdbb5690e6 feda60e7e03ff198c6ba7b63fb3f2b2a3256993c Davox1095 <davidmorag1095@gmail.com> 1780354071 -0600	commit: Modificacion del ignore para evitar archivos basura a la hora de realizar cambios en el repo
+feda60e7e03ff198c6ba7b63fb3f2b2a3256993c 013addcb16f854f8e68dde7dd6954f193bd46fb6 Davox1095 <davidmorag1095@gmail.com> 1780354689 -0600	pull --ff --recurse-submodules --progress origin: Fast-forward
+013addcb16f854f8e68dde7dd6954f193bd46fb6 6fe0fc24f4f2c40a1c166f79838a7dbac51a36e4 Davox1095 <davidmorag1095@gmail.com> 1780356735 -0600	commit: Eliminacion de archivo que genero pycharm
+6fe0fc24f4f2c40a1c166f79838a7dbac51a36e4 a9859297a8f1d5d76aa45fdf76973a25dba42a83 Davox1095 <davidmorag1095@gmail.com> 1780357968 -0600	commit: Se retira la guia de programa por decision del equipo
+a9859297a8f1d5d76aa45fdf76973a25dba42a83 c599b8ee1b054185e2e7ceec392852bfeee96752 Davox1095 <davidmorag1095@gmail.com> 1780419092 -0600	commit: Acomodo de archivos
