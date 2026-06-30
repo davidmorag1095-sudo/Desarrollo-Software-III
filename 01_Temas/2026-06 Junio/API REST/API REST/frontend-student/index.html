@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gestión de Estudiantes</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+
+    <header>
+        <h1>Gestión de Estudiantes</h1>
+        <p>Frontend profesional para consumir API REST con FastAPI</p>
+    </header>
+
+    <section class="form-section">
+        <h2>Agregar / Actualizar Estudiante</h2>
+
+        <form id="studentForm">
+            <input type="text" id="carnet" placeholder="Carnet" required>
+            <input type="text" id="name" placeholder="Nombre" required>
+            <input type="number" id="age" placeholder="Edad" required>
+
+            <button type="submit">Guardar</button>
+        </form>
+        <br>
+        <div class="search-container">
+            <input type="text" id="searchCarnet" placeholder="Buscar por carnet">
+
+            <button id="btnSearch">
+                Buscar
+            </button>
+
+            <button id="btnLoad">
+                Mostrar Todos
+            </button>
+        </div>
+       
+    </section>
+
+    <section class="table-section">
+        <h2>Listado de Estudiantes</h2>
+
+        <table>
+            <thead>
+                <tr>
+                    <th>Carnet</th>
+                    <th>Nombre</th>
+                    <th>Edad</th>
+                    <th>Acciones</th>
+                </tr>
+            </thead>
+            <tbody id="studentsTable">
+                <!-- Datos generados dinámicamente -->
+            </tbody>
+        </table>
+    </section>
+
+    <div id="messageBox" class="hidden"></div>
+
+    <script src="js/app.js"></script>
+</body>
+
+</html>
