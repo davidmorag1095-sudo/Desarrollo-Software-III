@@ -1,0 +1,16 @@
+@startuml
+actor Usuario
+
+rectangle "index.html" as HTML
+rectangle "app.js" as JS
+rectangle "API REST FastAPI" as API
+rectangle "styles.css" as CSS
+
+Usuario --> HTML
+HTML --> JS
+CSS --> HTML
+JS --> API : fetch()
+API --> JS : JSON
+JS --> HTML : muestra los datos
+@enduml
+
